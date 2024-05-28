@@ -2,6 +2,7 @@
   "name": "@matthewroach/lit-components",
   "version": "0.1.1",
   "main": "index.js",
+  "jsdelivr": "./cdn/index.js",
   "prettier": "@matthewroach/dev-config/prettier",
   "scripts": {
     "start": "web-dev-server",
