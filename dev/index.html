@@ -1,0 +1,116 @@
+<!doctype html>
+
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Web Components Dev Page</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link rel="stylesheet" href="../src/css/index.css" />
+
+		<!-- <script src="../node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script> -->
+		<!-- <script src="../node_modules/lit/polyfill-support.js"></script> -->
+
+		<script type="module" src="../src/components/stack/index.js"></script>
+		<script type="module" src="../src/components/accordion/index.js"></script>
+		<!-- <script type="module" src="../cdn/index.js"></script> -->
+		<style>
+			/* .c-stack {
+			background: yellow
+		}
+		p {
+		  border: solid 1px blue;
+		  padding: 8px;
+		} */
+		</style>
+	</head>
+	<body>
+		<a-stack>
+			<a-stack>
+				<p>
+					C'mon, c'mon let's go. I will. Yeah I know, If you put your mind to it
+					you could accomplish anything. No, Marty, we've already agreed that
+					having information about the future could be extremely dangerous. Even
+					if your intentions are good, they could backfire drastically. Whatever
+					you've got to tell me I'll find out through the natural course of
+					time. Who are you?
+				</p>
+				<p>
+					Oh, pleased to meet you, Calvin Marty Klein. Do you mind if I sit
+					here? Oh, I sure like her, Marty, she is such a sweet girl. Isn't
+					tonight the night of the big date? It's cold, damn cold. Ha, ha, ha,
+					Einstein, you little devil. Einstein's clock is exactly one minute
+					behind mine, it's still ticking. Look me up when you get there, guess
+					I'll be about 47. Welcome to my latest experiment. It's the one I've
+					been waiting for all my life.
+				</p>
+			</a-stack>
+			<div class="c-stack">
+				<p>
+					C'mon, c'mon let's go. I will. Yeah I know, If you put your mind to it
+					you could accomplish anything. No, Marty, we've already agreed that
+					having information about the future could be extremely dangerous. Even
+					if your intentions are good, they could backfire drastically. Whatever
+					you've got to tell me I'll find out through the natural course of
+					time. Who are you?
+				</p>
+				<p>
+					Oh, pleased to meet you, Calvin Marty Klein. Do you mind if I sit
+					here? Oh, I sure like her, Marty, she is such a sweet girl. Isn't
+					tonight the night of the big date? It's cold, damn cold. Ha, ha, ha,
+					Einstein, you little devil. Einstein's clock is exactly one minute
+					behind mine, it's still ticking. Look me up when you get there, guess
+					I'll be about 47. Welcome to my latest experiment. It's the one I've
+					been waiting for all my life.
+				</p>
+				<p>
+					Excuse me. We do now. Yeah but George, Lorraine wants to go with you.
+					Give her a break. Hey Biff, check out this guy's life preserver, dork
+					thinks he's gonna drown. Hey guys, you gotta get back in there and
+					finish the dance
+				</p>
+			</div>
+
+			<a-stack>
+				<a-accordion id="testing">
+					<span slot="title">Accordion Title that is super duper long</span>
+					<p>
+						Oh, pleased to meet you, Calvin Marty Klein. Do you mind if I sit
+						here? Oh, I sure like her, Marty, she is such a sweet girl. Isn't
+						tonight the night of the big date? It's cold, damn cold. Ha, ha, ha,
+						Einstein, you little devil. Einstein's clock is exactly one minute
+						behind mine, it's still ticking. Look me up when you get there,
+						guess I'll be about 47. Welcome to my latest experiment. It's the
+						one I've been waiting for all my life.
+					</p>
+					<p>
+						Excuse me. We do now. Yeah but George, Lorraine wants to go with
+						you. Give her a break. Hey Biff, check out this guy's life
+						preserver, dork thinks he's gonna drown. Hey guys, you gotta get
+						back in there and finish the dance
+					</p>
+				</a-accordion>
+
+				<a-accordion id="testing-1" open>
+					<span slot="title">Accordion Title that is super duper long</span>
+					<p>
+						Excuse me. We do now. Yeah but George, Lorraine wants to go with
+						you. Give her a break. Hey Biff, check out this guy's life
+						preserver, dork thinks he's gonna drown. Hey guys, you gotta get
+						back in there and finish the dance
+					</p>
+				</a-accordion>
+			</a-stack>
+		</a-stack>
+
+		<script type="module">
+			// Demo showing how you can activate a method on a custom component
+			// const myElement = document.querySelector("#testing")
+
+			// myElement.addEventListener("click", () => {
+			//   myElement.focus();
+			// });
+		</script>
+	</body>
+</html>
