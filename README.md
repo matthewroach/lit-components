@@ -9,7 +9,6 @@ As the package is published to the GitHub packages it requires an `.npmrc` file 
 ```
 # .npmrc
 @matthewroach:registry=https://npm.pkg.github.com/
-
 //npm.pkg.github.com/:_authToken=${AUTH_TOKEN}
 
 ```
@@ -46,6 +45,5 @@ Before publishing a new version needs to be created. Not creating a new version 
 ```
 # .npmrc
 @matthewroach:registry=https://npm.pkg.github.com/
-
 //npm.pkg.github.com/:_authToken=${AUTH_TOKEN}
 ```
