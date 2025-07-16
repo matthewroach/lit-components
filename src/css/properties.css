@@ -1,0 +1,41 @@
+:root {
+	/* Typography */
+	--a-font-family: Georgia, 'Times New Roman', Times, serif;
+	--a-font-family-alt: 'Segoe UI', 'Helvetica Neue', Helvetica, Arial,
+		sans-serif;
+
+	/* Font weights */
+	--a-font-weight-light: 300;
+	--a-font-weight-regular: 400;
+	--a-font-weight-medium: 500;
+	--a-font-weight-semibold: 600;
+	--a-font-weight-bold: 700;
+
+	/* Font sizes */
+	--a-font-size-2xs: 0.5rem; /* 8px */
+	--a-font-size-xs: 0.625rem; /* 10px */
+	--a-font-size-s: 0.75rem; /* 12px */
+	--a-font-size-m: 0.875rem; /* 14px */
+	--a-font-size-l: 1rem; /* 16px */
+	--a-font-size-xl: 1.25rem; /* 20px */
+	--a-font-size-2xl: 1.5rem; /* 24px */
+	--a-font-size-3xl: 1.75rem; /* 28px */
+	--a-font-size-4xl: 2rem; /* 32px */
+	--a-font-size-5xl: 3rem; /* 48px */
+	--a-font-size-6xl: 4rem; /* 64px */
+
+	/* Size and Spacing */
+	--a-size-4xs: 0.125rem; /* 2px */
+	--a-size-3xs: 0.25rem; /* 4px */
+	--a-size-2xs: 0.5rem; /* 8px */
+	--a-size-xs: 0.75rem; /* 12px */
+	--a-size-s: 0.875rem; /* 14px */
+	--a-size-m: 1rem; /* 16px */
+	--a-size-l: 1.25rem; /* 20px */
+	--a-size-xl: 1.5rem; /* 24px */
+	--a-size-2xl: 2rem; /* 32px */
+	--a-size-3xl: 2.5rem; /* 40px */
+	--a-size-4xl: 3rem; /* 48px */
+	--a-size-5xl: 4rem; /* 64px */
+	--a-size-6xl: 5rem; /* 80px */
+}

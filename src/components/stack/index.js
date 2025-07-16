@@ -3,18 +3,19 @@ import { LitElement, html, css } from 'lit'
 /**
  * Stack element.
  *
- * @slot - This element has a slot
+ * @slot - default - This element has a slot
  */
 export class Stack extends LitElement {
 	static styles = css`
 		:host {
+			--a-stack-gap: var(--a-size-m);
 			display: block;
 		}
 
 		.c-stack {
 			display: flex;
 			flex-direction: column;
-			gap: 1rem;
+			gap: var(--a-stack-gap);
 		}
 	`
 

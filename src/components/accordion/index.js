@@ -4,7 +4,7 @@ import { LitElement, css, html } from 'lit'
  * Accordion element.
  *
  * @fires accordion-toggle - Fired when the accoridion is open/closed - Boolean value determines state
- * @slot - This element has a slot
+ * @slot - default - This element has a slot
  */
 export class Accordion extends LitElement {
 	static properties = {
@@ -18,8 +18,6 @@ export class Accordion extends LitElement {
 		}
 
 		.accordion {
-			margin: 0;
-			padding: 0;
 			border: 2px solid hsl(0deg 0% 52%);
 			border-radius: 0.25rem;
 		}
